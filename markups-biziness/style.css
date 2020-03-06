@@ -1567,6 +1567,7 @@ button:focus {
     overflow: hidden;
     padding: 5px;
 	position: auto;
+	margin: auto;
 	width: 300px;
   }
 
@@ -1628,6 +1629,7 @@ border-bottom-left-radius: 0.35rem;
 color: #fff !important;
 }
 
+
 .bg-blue {
 	background-color: #4e73df !important;
 	}
@@ -1644,8 +1646,6 @@ color: #fff !important;
 background-color: #468847 !important;
 }
 
-			
-
 h3{
 	display: inline-block;
 	font-size: 20px;
@@ -1656,4 +1656,8 @@ h3{
 	font-weight: 700;
 	margin-bottom: 20px;
 	border-radius: 10px;
+}
+
+.box-photo{
+	width:360px;
 }
