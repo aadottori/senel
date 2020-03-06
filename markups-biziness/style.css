@@ -439,7 +439,7 @@ button:focus {
 .mu-about-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	padding: 40px 0;
 	width: 100%;
 }
 
@@ -1033,7 +1033,7 @@ button:focus {
 .mu-clients-area {
 	display: inline;
 	float: left;
-	padding: 100px 0;
+	padding: 10px 10px
 	width: 100%;
 }
 
