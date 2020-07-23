@@ -68,13 +68,21 @@
 			
 		    <!-- Ítens da barra de navegação -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      	<ul class="nav navbar-nav mu-menu navbar-right">
-					<li><a href="#"><p style = "font-size:xx-large;">SENEL</p></a></li>
+		      	<ul class="nav navbar-nav mu-menu navbar-left">
+					<a class="navbar-brand">
+						<div class="logo-image">
+							  <img src="assets/images/icons/raio_icon.png" class="img-fluid">
+						</div>
+				  </a>					  
+				</ul>
+				<ul class="nav navbar-nav mu-menu navbar-right">
 					<li><a href="#mu-about">SOBRE NÓS</a></li>
+					<li><a href="#mu-social">SOCIAL</a></li>
 					<li><a href="#mu-clients">PATROCÍNIO</a></li>
 					<li><a href="#mu-contact">CONTATO</a></li>
-					<li><a href="http://senel.poli.ufrj.br">SENEL 2019 </a></li>
-		      	</ul>
+					<li><a href="http://senel.poli.ufrj.br/2020/online">SENEL ONLINE</a></li>
+					<li><a href="http://senel.poli.ufrj.br/2019">SENEL 2019</a></li>
+				</ul>
 			</div><!-- /.navbar-collapse -->
 		  </div><!-- /.container-fluid -->
 		</nav>
@@ -88,7 +96,6 @@
 		<div class="row">
 			<div class="col-md-12">
 				<div class="mu-featured-slide">
-
 					<!-- Slider -->
 					<div class="mu-featured-slider-single">
 						<img src="assets/images/mesa_redonda.JPG">
@@ -116,22 +123,24 @@
 						<div class="mu-about-area">
 
 							<div class="mu-about-header">
-								
-								<!-- Área de Inscrições-->
+								<!--
 								<h2 class="mu-heading-title">AS <span>INSCRIÇÕES</span> PARA O <span>SIMPÓSIO</span> JÁ ESTÃO ABERTAS!</h2>
 								<span class="mu-header-dot"></span> <br>
 								<a href="https://even3.com/eletrica"><button style='color:#1c1b1b; background-color: #F6C135; font-size:medium;'><b>CLIQUE AQUI PARA ACESSAR A PLATAFORMA DE INSCRIÇÃO</b></button></a>
-								
+								-->
 								<!-- Sobre Nós -->
 								<h2 class="mu-heading-title">SOBRE <span>NÓS</span></h2>
 								<span class="mu-header-dot"></span>
+								
+					<p style = "font-size:xx-large;">SENEL</p>
 								<p>A Semana da Engenharia Elétrica da UFRJ é um evento realizado no Centro de Tecnologia
 									(CT) da Universidade Federal do Rio de Janeiro, organizado com o apoio do Departamento 
 									de Engenharia Elétrica. O evento tem como objetivo promover a <b>capacitação</b> de engenheiros
 									e futuros engenheiros voltada para as novas tendências dos setores de energia,
 									tecnologia e mercado de trabalho a partir de diversas atividades durante a semana.
-									</p>
+								</p>
 							</div>
+
 
 							<!-- Linha de ítens Sobre Nós -->
 							<div class="mu-about-content">
@@ -182,13 +191,71 @@
 								</div>	
 							</div>
 							<!-- Fim da linha de ítens -->
-
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 		<!-- Fim Sobre Nós -->
+
+		<!-- Redes Sociais -->
+		<section id="mu-social">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-social-area">
+
+							<div class="mu-about-header">
+
+								<h2 class="mu-heading-title">SIGA-NOS NAS <span>REDES SOCIAIS</span></h2>
+								<span class="mu-header-dot"></span>
+
+							</div>
+
+							<!-- Linha de ítens Redes Sociais -->
+							<div class="mu-about-content">
+								<div class="row">
+									<div class="col-md-3 col-sm-6">
+										<div class="mu-about-content-single">
+											<span class="mu-service-icon-box">
+												<a href="https://instagram.com/senel_ufrj"><img src="assets/images/icons/ig_icon.png"  style="width: 80px; height: 80px"></img></a>
+											</span>
+										</div>
+									</div>
+
+									<div class="col-md-3 col-sm-6">
+										<div class="mu-about-content-single">
+											<span class="mu-service-icon-box">
+												<a href="https://facebook.com/senelufrj"><img src="assets/images/icons/fb_icon.png"  style="width: 80px; height: 80px"></img></a>
+											</span>
+										</div>
+									</div>
+
+									<div class="col-md-3 col-sm-6">
+										<div class="mu-about-content-single">
+											<span class="mu-service-icon-box">
+												<a href="https://www.linkedin.com/company/senel-ufrj/about/"><img src="assets/images/icons/linkedin_icon.png"  style="width: 80px; height: 80px"></img></a>
+											</span>
+										</div>
+									</div>
+
+									<div class="col-md-3 col-sm-6">
+										<div class="mu-about-content-single">
+											<span class="mu-service-icon-box">
+												<a href="https://www.youtube.com/channel/UCtDFHNbYakNZzzL0naaNxUA"><img src="assets/images/icons/yt_icon.png"  style="width: 80px; height: 80px"></img></a>
+											</span>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<!-- Fim da linha de ítens -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
 
 		<!-- Início Patrocinadores -->
 		<section id="mu-clients">
@@ -216,20 +283,29 @@
 											<a href='https://drive.google.com/file/d/0B5zLNhdPdo39RGh1NExQdGlrQkZ1aHhGZUNYQXliWUpXUXBJ/view?usp=sharing'>
 											<img src="assets/images/capa_senel_em_numeros.jpeg"  alt="SENEL EM NÚMEROS">
 											</a>
+											<p>Este documento apresenta a performance da SENEL ao longo dos anos.</p>
 										</div>
 	
 										<div class="boxArquivo">
 											<a href='https://drive.google.com/file/d/0B5zLNhdPdo39b0lzVU14dy1jaHZKRGdXWnlBNVdueEUzZEM4/view?usp=sharing'>
 											<img src="assets/images/capa_proposta_de_patrocinio.jpeg"  alt="PROPOSTA DE PATROCÍNIO">
 											</a>
+											<p>Este documento apresenta a proposta de patrocínio do evento.</p>
 										</div>
 									</div>
 								</div>
+								
+								<p>
+									Não deixe de conferir nossos números e a cota de patrocínio de 2020.
+									Caso sua empresa tenha interesse em algum tipo de parceria ou participação, não hesite em contactar nossa equipe pelo e-mail <a>senel@poli.ufrj.br</a>.
+								</p>
+
 							</div>
 						</div>
 					</div>
 				</section>
 		<!-- Fim patrocinadores -->
+
 		<style>
 			.logos {
 				width: 100%;
@@ -266,6 +342,7 @@
 					<li > <img class = "logo-modelo" src="assets/images/logos/Yokogawa.jpeg"></li>
 				</ul>
 			</div>
+
 		<!-- Início Contato -->
 		<section id="mu-contact">
 			<div class="container">
@@ -292,6 +369,7 @@
 											<a href="https://www.facebook.com/senelufrj/"><i class="icon-social-facebook"></i></a>
 											<a href="https://www.instagram.com/senel_ufrj/"><i class="icon-social-instagram"></i></a>
 											<a href="https://www.linkedin.com/company/senel-ufrj/about/"><i class="icon-social-linkedin"></i></a>
+											<a href="https://www.youtube.com/channel/UCtDFHNbYakNZzzL0naaNxUA"><i class="icon-social-youtube"></i></a>
 										</div>
 								</div>
 								
@@ -317,8 +395,8 @@
 	<footer id="mu-footer" role="contentinfo">
 			<div class="container">
 				<div class="mu-footer-area">
-					Personalizado por Anderson Víctor <a href="https://github.com/andersonvvd"><i class="icon-social-github"></i></a>
-					e Antonio Dottori. <a href="https://github.com/aadottori"><i class="icon-social-github"></i></a>
+					Por <a href="https://github.com/andersonvvd"><i class="icon-social-github"></i>Anderson Victor</a>
+					e <a href="https://github.com/aadottori"><i class="icon-social-github"></i>Antonio Dottori</a>.
 					&copy; Copyright <a rel="nofollow" href="http://markups.io">markups.io</a>. Todos os direitos reservados.</p>
 				</div>
 			</div>
